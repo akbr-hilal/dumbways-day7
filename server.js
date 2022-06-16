@@ -19,8 +19,6 @@ app.post("/add-project", function (req, res) {
 });
 
 app.get("/project-detail/:name", function (req, res) {
-    console.log(req.params.name);
-
     let name = req.params.name;
     res.render("project-detail", {
         project: {
