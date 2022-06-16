@@ -1,0 +1,78 @@
+*{
+  /* background-color: red; */
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: 8vh;
+}
+
+.bg-blue{
+    background-color: rgb(228, 228, 228);
+}
+
+.container-fluid{
+  height: 92vh;
+}
+
+.container-content{
+  width: 600px;
+  text-align: justify;
+}
+
+.container-fluid2{
+    height: 100vh;
+}
+
+.text-orange{
+    font-weight: 600 !important;
+    color: orangered !important;
+}
+
+.btn-dark:hover{
+    background-color: orangered !important;
+    border: 1px solid orangered !important;
+}
+
+.text-dark:hover{
+  font-weight: 700;
+  color: orangered !important;
+}
+
+.media{   
+  padding-top: 60px;
+}
+
+.media img{
+  width: 40px;
+  margin-right: 24px;
+}
+
+.fa-stack{
+  font-size: 24px;
+  vertical-align: middle;
+}
+.fa-stack:hover{
+  color: orangered;
+}
+
+i{
+  vertical-align: middle;
+}
+
+/* Project List */
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card .card-body{
+    text-align: justify;
+}
+
+.card .card-body i{
+    font-size: 24px;
+    padding-right: 12px;
+    font-weight: 500;
+}

@@ -1,0 +1,11 @@
+body{
+    box-sizing: border-box !important;
+}
+
+.container-form{
+    width: 400px;
+}
+
+.form-check, .form-check-label, .form-check-input{
+    cursor: pointer;
+}

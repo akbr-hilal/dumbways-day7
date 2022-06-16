@@ -1,0 +1,14 @@
+.container-fluid{
+    height: max-content !important;
+}
+
+.detail-description p{
+    margin-bottom: 0;
+    padding-bottom: 24px;
+}
+
+i{
+    font-size: 24px;
+    padding-right: 12px;
+    font-weight: 500;
+}
